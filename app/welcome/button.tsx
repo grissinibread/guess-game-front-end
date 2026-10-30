@@ -10,10 +10,7 @@ export function Button({ text }: Children) {
   const navigate = useNavigate();
 
   return (
-    <button
-      className='text-xl'
-      onClick={() => navigate("/difficulty")}
-    >
+    <button className='text-xl' onClick={() => navigate('difficulty')}>
       {text}
     </button>
   );
